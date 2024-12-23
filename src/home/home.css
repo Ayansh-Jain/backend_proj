@@ -1,0 +1,76 @@
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    padding:0px 100px  0 100px;
+}
+
+
+.signbtn{
+  background-color: rgb(48, 48, 48);
+  box-shadow: 0px 4px 15px rgba(139, 139, 139, 0.3), 0px -4px 15px rgba(139, 139, 139, 0.3);
+  margin-left:550px;
+  height:60px;
+  color: white;
+}
+
+.logoi{
+    border-radius: 15px;
+}
+.main-section{
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+  
+ .faq{
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: rgb(32, 32, 32,0.0);
+    color:white;
+    height: max-content;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+ }
+ .faq-item{
+    margin-left: 250px;
+    font-size: larger;
+ }
+  
+
+  
+.footer{
+    color:white;
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-container {
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Places video behind other elements */
+  overflow: hidden;
+  }
+  
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .get-started-btn{
+    background-color: rgb(48, 48, 48);
+    box-shadow: 0px 4px 15px rgba(139, 139, 139, 0.3), 0px -4px 15px rgba(139, 139, 139, 0.3);
+    margin-left:550px;
+    height:60px;
+    color: white;
+  }
+  .get-started-btn:hover{
+    box-shadow: 0px 10px 24px rgba(223, 223, 223, 0.3), 0px -10px 24px rgba(223, 223, 223, 0.3);
+  }

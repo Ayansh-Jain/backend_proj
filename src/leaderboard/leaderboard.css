@@ -1,0 +1,105 @@
+.leaderboardMain{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.leaderboard-container {
+    display: flex;
+    justify-content: space-between; /* Spread tables on either side */
+    align-items: flex-start; /* Align tables to the top */
+    padding: 20px;
+    width: 96vw;
+    height: 94vh; /* Ensure full height */
+    position: relative;
+  }
+  
+  /* Styling for each leaderboard table */
+  .leaderboard-table {
+    width: 50%; /* Each table takes up 48% of the container width */
+    max-height: 100vh; /* Max height for scrollable tables */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of leaderboard tables */
+  .leaderboard-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  /* General table styling */
+  table {
+    width:100%;
+    border-collapse: collapse; /* Collapse borders for cleaner look */
+  }
+  
+  /* Table header styling */
+  table th,
+  table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Add bottom border */
+  }
+  
+  /* Table header background and text color */
+  table th {
+    background: transparent;
+    color: white;
+  }
+  
+  /* Table row text color */
+  tr {
+    color: white;
+  }
+  
+  /* Hover effect for table rows */
+  table tr:hover {
+    background-color: #ddd;
+    color:black;
+    cursor: pointer; /* Make the row interactive on hover */
+  }
+  
+  /* Styling for table cells */
+  table td {
+    font-weight: bold;
+  }
+  
+  /* Remove borders from last column and row */
+  table tr:last-child td {
+    border-bottom: none; /* No border on the last row */
+  }
+  
+  table td:last-child {
+    border-right: none; /* No border on the last column */
+  }
+  
+  /* Background video styles */
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send video behind the content */
+  }
+  
+  .video-container video {
+    object-fit: cover; /* Ensure the video covers the whole screen */
+    width: 100%;
+    height: 100%;
+  }
+  
